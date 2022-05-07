@@ -31,7 +31,7 @@ jobs:
         context: ./
         file: ./dockerfile.v1
         push: true
-        tags: danielchutkowski/fsLab2:ghfront1
+        tags: danielchutkowski/fslab2:ghfront1
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
